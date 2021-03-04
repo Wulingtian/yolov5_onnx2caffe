@@ -156,8 +156,8 @@ if __name__ == "__main__":
 
     graph = getGraph(onnx_path)
 
-    #convertToCaffe(graph, prototxt_path, caffemodel_path, exis_focus=True, focus_concat_name="Concat_40", focus_conv_name="Conv_41")
+    convertToCaffe(graph, prototxt_path, caffemodel_path, exis_focus=True, focus_concat_name="Concat_40", focus_conv_name="Conv_41")
     #convertToCaffe(graph, prototxt_path, caffemodel_path, exis_focus=True, focus_concat_name="Concat_40")
     #convertToCaffe(graph, prototxt_path, caffemodel_path, focus_conv_name="Conv_41")
-    convertToCaffe(graph, prototxt_path, caffemodel_path)
+    #convertToCaffe(graph, prototxt_path, caffemodel_path)
 
