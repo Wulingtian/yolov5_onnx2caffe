@@ -64,7 +64,7 @@ libstdc++.so.6: version `GLIBCXX_3.4.21' not found
 
 ImportError: No module named google.protobuf.internal
 
-解决方案：解决办法：ImportError: No module named google.protobuf.internal
+解决方案：ImportError: No module named google.protobuf.internal
 
 wrap_python.hpp:50:23: fatal error: pyconfig.h: No such file or dir
 
